@@ -5,7 +5,7 @@
 <div class="container">
     
 <div class="card text-center">
-  <img src="../../assets/imgs/dp3.jpg" class="card-img-top" alt="...">
+  <img src="../../assets/imgs/carousel 3.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title"><b>{{details.name}}</b></h5>
     <p class="card-text">{{details.description}}</p>
@@ -13,10 +13,10 @@
   <ul class="list-group list-group-flush">
     <li class="list-group-item">{{details.brand}}</li>
     <li class="list-group-item">{{details.price | currency}}</li>
-    <li class="list-group-item"><i class="fas fa-angle-double-down"></i>{{(shoppingCartItems$ | async).length}}</li>
+    <li class="list-group-item"><i class="fas fa-angle-double-down"></i></li>
   </ul>
   <div class="card-body">
-    <button [routerLink]="['/cart']" class="card-link" (click)="addToCart(product)">Add to cart</button>
+    <button [routerLink]="['/cart']" class="card-link" (click)="addToCart">Add to cart</button>
   </div>
   
 <div class="banner">
