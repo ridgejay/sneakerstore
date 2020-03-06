@@ -1,0 +1,26 @@
+.banner {
+    background-image: url(../../assets/imgs/banner3.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+h5 {
+   font-family: 'Kanit', sans-serif;
+
+    color: rgba(225, 225, 225, .1);
+
+    background-image: url(../../assets/imgs/bape.jpg);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    background-clip: text; 
+   
+}
+
+.fas {
+    color:green;
+}
+
+.card-link {
+    color: green;
+}
+

@@ -1,0 +1,70 @@
+h1  {
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(225, 225, 225, .1);
+    
+    background-image: url(../../assets/imgs/banner3.jpg);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 15s linear infinite;
+}
+h5  {
+    text-align: center;
+    text-decoration: none;
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(225, 225, 225, .1);
+    
+    background-image: url(../../assets/imgs/sidebar2.jpg);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 15s linear infinite;
+}
+
+h6 {
+   font-family: 'Kanit', sans-serif;
+
+    color: rgba(225, 225, 225, .1);
+
+    background-image: url(../../assets/imgs/c4.jpg);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    background-clip: text; 
+   
+}
+
+.banner {
+    background-image: url(../../assets/imgs/banner3.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+
+
+.card-example {
+    justify-content: center;
+    text-align: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.navbar {
+    background-image: url(../../assets/imgs/lg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 25px;
+    
+    
+}
+
+.container {
+    padding: 20px;
+}
+
